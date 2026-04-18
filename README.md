@@ -13,6 +13,8 @@
 
 # About this repo
 
+This repository provides continuously updated dashboards and alerting rules for Grafana, designed to simplify monitoring setups. It includes a sample Docker Compose configuration for a primary node running Prometheus and Grafana, enabling centralized metric collection, visualization, and alerting. Additionally, separate Docker configurations for secondary nodes allow distributed metric exposure and scalability across multiple systems. The setup is tailored for modern, containerized environments and supports easy integration into existing infrastructures. Regular updates ensure compatibility, improved observability, and optimized performance, making it suitable for both small deployments and larger, production-grade monitoring architectures.
+
 ### Prometheus  
 Prometheus is an open-source monitoring and alerting system designed for dynamic, cloud-native environments. It collects metrics using a pull-based model from configured endpoints, stores them as time series, and enables powerful querying via the PromQL language. Through service discovery, it integrates seamlessly with container orchestration platforms like Kubernetes. Alerts are generated based on defined rules and forwarded to Alertmanager, which handles notification management.
 
